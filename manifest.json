@@ -3,7 +3,7 @@
   "name": "fact-check",
   "description": "the extension for all your  brown aunties",
   "version": "0.1.0",
-  "manifest version": 2,
+  "manifest_version": 2,
   "background": {
     "scripts": ["./background.js"]
   },
