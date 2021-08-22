@@ -1,0 +1,17 @@
+body {
+    background-color: azure;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}

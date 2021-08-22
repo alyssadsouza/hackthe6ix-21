@@ -4,9 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="popup.js"></script>
   </head>
   <body>
-    <script src="script.js"></script>
+
+    <div id="welcome-screen"></div>
+
+    <div id="input-container">
+      <h1 id="instructions">Highlight the fact you would like to verify or type it down below and hit the button to start fact checking!</h1>
+      <input type="text" id="fact">
+      <button id="checkFact">Let's Go!</button>
+    </div>
+
+    <div id="results"></div>
+
   </body>
 </html>
